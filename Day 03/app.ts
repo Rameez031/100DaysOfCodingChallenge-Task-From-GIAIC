@@ -26,3 +26,4 @@ console.log(40 / 5);
 const favNum: Number = 5;
 const myMsg: string = 'My Favourite Number is';
 console.log(myMsg + " " + favNum);
+console.log(myMsg + " " + favNum);
