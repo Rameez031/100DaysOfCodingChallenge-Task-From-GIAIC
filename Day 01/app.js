@@ -1,14 +1,15 @@
+"use strict";
 // Question 02:
-var studentName = 'Rameez Ramzy';
-console.log("Hello! ".concat(studentName, " Would you like to learn some TypeScript today?"));
+let studentName = 'Rameez Ramzy';
+console.log(`Hello! ${studentName} Would you like to learn some TypeScript today?`);
 // Question 03:
-var userName = 'Rameez sheikh';
+let userName = 'Rameez sheikh';
 //Convert into LowerCase:
-var lowerCaseName = userName.toLowerCase();
+let lowerCaseName = userName.toLowerCase();
 console.log('LowerCase:', lowerCaseName);
 //Convert into UpperCase:
-var upperCaseName = userName.toUpperCase();
+let upperCaseName = userName.toUpperCase();
 console.log('UpperCase', upperCaseName);
 //Convert into titleCase:
-var titlecaseName = userName.replace(/\w\S*/g, function (txt) { return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase(); });
+let titlecaseName = userName.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
 console.log("TitleCase: ", titlecaseName);
