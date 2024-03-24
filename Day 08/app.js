@@ -1,8 +1,9 @@
+"use strict";
 // Question 22
-var progLang = ['JavaScript', 'Python', 'Php', 'Java'];
-var invalid_index = progLang[3];
+let progLang = ['JavaScript', 'Python', 'Php', 'Java'];
+let invalid_index = progLang[3];
 if (progLang.length > 3) {
-    var valid_index = progLang[3];
+    let valid_index = progLang[3];
     console.log("language at index 3: ", valid_index);
 }
 else {
@@ -10,7 +11,7 @@ else {
 }
 // Question 23
 //Comparison Operator
-var car = 'Supra Mk4';
+let car = 'Supra Mk4';
 console.log("Is car == 'Supra Mk4'? I predict True.");
 console.log(car == 'Supra Mk4');
 console.log("Is car == 'kawasaki'? I predict False.");
